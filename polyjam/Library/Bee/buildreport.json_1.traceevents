@@ -1,0 +1,597 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685815857179071, "dur": 7193719, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815857180041, "dur": 10104, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815857190149, "dur": 280923, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815857471075, "dur": 1886052, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815859357130, "dur": 5007442, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815864364574, "dur": 8215, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815864373948, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685815859128912, "dur": 152765, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859129931, "dur": 41276, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859250253, "dur": 18494, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859268753, "dur": 12912, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859269834, "dur": 9542, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859286422, "dur": 1253, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685815859285015, "dur": 2691, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815864374992, "dur": 290, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685815859519567, "dur":107699, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815859627285, "dur":193, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685815859627572, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685815859627624, "dur":696, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685815859628375, "dur":516, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815859628891, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264598, "dur":134, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264733, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264759, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264762, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264784, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264785, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264791, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264792, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264799, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264801, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264815, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264817, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264822, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264823, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264830, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264835, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264845, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864264859, "dur":5323, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685815859628717, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815859628956, "dur":2879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815859631837, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685815859632053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860065884, "dur":236874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685815860302884, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685815860303091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860303105, "dur":92824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685815860395983, "dur":25226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860421214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860465224, "dur":119521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860584879, "dur":26846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860611731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860611741, "dur":157389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860769182, "dur":72367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860841560, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860841587, "dur":14985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860856601, "dur":142473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815860999078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815860999085, "dur":54327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861053438, "dur":155246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861208687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815861208694, "dur":501681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861710391, "dur":84603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861794999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815861795007, "dur":73150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861868175, "dur":30298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861898477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815861898487, "dur":78223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815861976723, "dur":174628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862151356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862151367, "dur":113062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862264441, "dur":51152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862315600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862315610, "dur":36967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862352590, "dur":95988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862448591, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862448610, "dur":100373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862549005, "dur":54222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862603232, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862603242, "dur":172705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862775960, "dur":13679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862789644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862789651, "dur":30208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862819874, "dur":7403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862827281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862827287, "dur":101872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862929186, "dur":7039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815862936237, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815862936256, "dur":84972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815863021242, "dur":36378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815863057629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815863057642, "dur":79212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685815863136886, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685815863136919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815863136933, "dur":531855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685815863668850, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685815863668886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685815863668902, "dur":486547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685815864155496, "dur":109100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815859628863, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815859628974, "dur":2858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815859631832, "dur":8383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685815859640220, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860232774, "dur":110482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685815860343300, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685815860343401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860344192, "dur":51341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685815860395565, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685815860395660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860395665, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1685815860399054, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685815860399208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860399849, "dur":184901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685815860584872, "dur":27087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815860611964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860611972, "dur":175397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815860787388, "dur":54505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815860841899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860841911, "dur":15041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815860856969, "dur":130628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815860987600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815860987604, "dur":65714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861053354, "dur":119250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861172609, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815861172618, "dur":61906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861234537, "dur":568824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861803365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815861803371, "dur":55980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861859383, "dur":32789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861892177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815861892186, "dur":63448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815861955663, "dur":182404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862138075, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862138140, "dur":55178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862193338, "dur":52276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862245619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862245627, "dur":40924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862286570, "dur":8421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862294994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862295000, "dur":20595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862315613, "dur":17929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862333554, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862333569, "dur":19032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862352611, "dur":4061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862356677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862356706, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862359249, "dur":87575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862446829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862446835, "dur":98797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862545645, "dur":17071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862562721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862562728, "dur":212584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862775334, "dur":154704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815862930043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815862930056, "dur":105467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815863035553, "dur":36236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815863071797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815863071811, "dur":263386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685815863335228, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685815863335257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815863335271, "dur":333619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685815863668908, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685815863668924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685815863668930, "dur":486430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685815864155392, "dur":109189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815859628984, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815859628984, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815859631834, "dur":15128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685815859646965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815860394932, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685815860397669, "dur":28446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685815860426121, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815860426141, "dur":116485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1685815860542682, "dur":29874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815860572572, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815860572596, "dur":39483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815860612100, "dur":10845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815860622958, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815860622974, "dur":219318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815860842825, "dur":144257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815860987085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815860987093, "dur":66311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861053435, "dur":41582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861095020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815861095026, "dur":90555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861185598, "dur":23509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861209112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815861209119, "dur":500621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861709753, "dur":93564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861803328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815861803340, "dur":64788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861868149, "dur":30373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861898532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815861898545, "dur":77746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861976307, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861976957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815861976967, "dur":3046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815861980026, "dur":170974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862151003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862151011, "dur":130002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862281029, "dur":16339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862297372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862297378, "dur":50099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862347495, "dur":1669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862349215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862349232, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862352767, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862353539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862353551, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862355873, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862356360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862356383, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862358731, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862359566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862359572, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862361458, "dur":174919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862536381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862536390, "dur":245411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862781816, "dur":41636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862823456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862823464, "dur":72867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862896346, "dur":37214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815862933568, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815862933581, "dur":100227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815863033822, "dur":6019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815863039855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815863039877, "dur":82361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685815863122271, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685815863122329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815863122344, "dur":602306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685815863724672, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685815863724693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685815863724702, "dur":505223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1685815864229962, "dur":34668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815859628931, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815859628931, "dur":2795, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815859631761, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1685815859631766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815859749969, "dur":76655, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1685815859826629, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1685815859826664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815859901500, "dur":296535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1685815860198043, "dur":14775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815860212826, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860212884, "dur":116753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815860329744, "dur":8443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815860338225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860342993, "dur":52880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815860395918, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685815860396007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860396013, "dur":28090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685815860424183, "dur":40340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815860464527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860512734, "dur":71997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815860584752, "dur":27309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815860612065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860612072, "dur":229854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815860841945, "dur":7693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815860849715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815860849729, "dur":161126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861010873, "dur":33862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861044745, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815861044849, "dur":105991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861150866, "dur":49957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861200835, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815861200855, "dur":479676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861680558, "dur":122759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861803328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815861803340, "dur":72725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861876082, "dur":34899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861910986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815861910993, "dur":66175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815861977227, "dur":131832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862109063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862109072, "dur":41821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862150919, "dur":56783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862207708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862207716, "dur":73694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862281433, "dur":6371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862287812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862287825, "dur":18209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862306046, "dur":13479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862319528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862319532, "dur":33040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862352586, "dur":4088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862356677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862356685, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862359007, "dur":2660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862361670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862361676, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862362950, "dur":52893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862415847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862415854, "dur":43635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862459511, "dur":46422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862505937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862505944, "dur":261879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862767855, "dur":20185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862788049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862788104, "dur":31088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862819225, "dur":20898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862840128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862840137, "dur":89063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862929216, "dur":16622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815862945846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815862945860, "dur":90037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815863035924, "dur":29681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815863065616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815863065634, "dur":246238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685815863311911, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685815863311955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815863311969, "dur":357712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685815863669694, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685815863669710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815863669715, "dur":155823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685815863825556, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815863825718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685815863825726, "dur":403068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685815864228821, "dur":35753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815859629017, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815859629018, "dur":2743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815859631761, "dur":15135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1685815859646903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815860343560, "dur":52393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1685815860395987, "dur":63658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815860459650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815860459726, "dur":234017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815860693890, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815860695001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815860695016, "dur":147065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815860842104, "dur":7915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815860850024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815860850033, "dur":160777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861010834, "dur":219357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861230195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815861230203, "dur":481120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861711332, "dur":103879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861815216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815861815223, "dur":112737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861927988, "dur":46115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861974107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815861974114, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815861977602, "dur":61025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862038631, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862038646, "dur":57397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862096071, "dur":4212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862100289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862100300, "dur":15499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862115822, "dur":35160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862150985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862150995, "dur":99151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862250157, "dur":33300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862283461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862283469, "dur":21675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862305159, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862306021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862306028, "dur":43055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862349102, "dur":3253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862352359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862352370, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862354476, "dur":85542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862440021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862440030, "dur":108826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862548868, "dur":30186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862579058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862579065, "dur":188985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862768073, "dur":161550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815862929631, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815862929665, "dur":106184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815863035880, "dur":22518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815863058402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815863058411, "dur":108833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685815863167278, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685815863167311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815863167321, "dur":502274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685815863669605, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1685815863669615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815863669619, "dur":124420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1685815863794050, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1685815863794059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685815863794098, "dur":435346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1685815864229464, "dur":35109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815859629226, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815859629227, "dur":2604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815859631831, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685815859631968, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860117624, "dur":185118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685815860302859, "dur":14089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685815860316954, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860316965, "dur":78380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685815860395389, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685815860395497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860395506, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685815860397792, "dur":22845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685815860420643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860420652, "dur":106430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685815860527095, "dur":15819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815860542918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860542925, "dur":56018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815860598975, "dur":19876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815860618859, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860618933, "dur":223924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815860842880, "dur":144630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815860987513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815860987517, "dur":65825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861053369, "dur":41574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861094950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861094966, "dur":90609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861185600, "dur":22865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861208516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861208526, "dur":501226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861709764, "dur":27856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861737626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861737635, "dur":100194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861837854, "dur":19894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861857756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861857835, "dur":40577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861898437, "dur":45279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861943724, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861943739, "dur":33235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861976990, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861978116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815861978130, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815861980528, "dur":102041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862082575, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862082584, "dur":26492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862109094, "dur":3833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862112932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862112940, "dur":56146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862169113, "dur":19242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862188362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862188376, "dur":92149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862280539, "dur":25175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862305718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862305724, "dur":46368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862352119, "dur":49710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862401836, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862401848, "dur":38112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862439975, "dur":65573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862505553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862505561, "dur":93470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862599052, "dur":32307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862631364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862631371, "dur":158457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862789839, "dur":33661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862823504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862823510, "dur":72754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862896299, "dur":22632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862918943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815862918958, "dur":35104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815862954079, "dur":49738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815863003823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815863003833, "dur":54497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685815863058363, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1685815863058529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815863120905, "dur":346880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1685815863467805, "dur":39826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1685815863507636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815863507644, "dur":162042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1685815863669700, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1685815863669715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685815863669720, "dur":496900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1685815864166645, "dur":97983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815859629185, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815859629185, "dur":2652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815859631838, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685815859632044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815860117595, "dur":137844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685815860255544, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685815860255741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815860255755, "dur":88480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685815860344283, "dur":9661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685815860353949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815860353972, "dur":42739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685815860396756, "dur":108055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815860504817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815860504824, "dur":725225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861230123, "dur":1697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861231824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815861231831, "dur":478570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861710433, "dur":18072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861728509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815861728516, "dur":128906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861857441, "dur":41046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861898493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815861898503, "dur":78196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815861976710, "dur":139038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862115754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862115764, "dur":72428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862188216, "dur":64263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862252513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862252520, "dur":42518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862295052, "dur":9928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862304989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862305053, "dur":43178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862348245, "dur":4124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862352373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862352380, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862354788, "dur":169211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862524007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862524022, "dur":243892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862767942, "dur":116201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862884149, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815862884161, "dur":79074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815862963253, "dur":522719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815863485980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815863485993, "dur":262638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685815863748661, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685815863748712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685815863748728, "dur":515811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685815864264552, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1685815864264554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815859629313, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815859629313, "dur":2520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815859631833, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685815859632073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815860136928, "dur":192636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685815860329682, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685815860329846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815860394433, "dur":43711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685815860438226, "dur":88093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860526324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815860526357, "dur":58380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860584757, "dur":27187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860611950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815860611959, "dur":229893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860841872, "dur":7770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860849648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815860849764, "dur":137312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815860987089, "dur":27762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861014863, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815861014888, "dur":80064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861094968, "dur":31068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861126042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815861126052, "dur":82472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861208544, "dur":21348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861229902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815861229918, "dur":480378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861710308, "dur":126357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861836676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815861836691, "dur":39369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861876081, "dur":34817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861910904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815861910915, "dur":65789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815861976724, "dur":94310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862071043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862071060, "dur":33355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862104439, "dur":4798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862109240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862109246, "dur":42102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862151362, "dur":37112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862188481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862188492, "dur":92980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862281506, "dur":12562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862294073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862294082, "dur":16353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862310452, "dur":8969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862319427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862319435, "dur":33147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862352599, "dur":2243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862354845, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862354857, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862356683, "dur":69463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862426184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862426193, "dur":57863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862484074, "dur":67971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862552086, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862552098, "dur":224863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862776971, "dur":103926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862880905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862880918, "dur":73100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862954030, "dur":21887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815862975921, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815862975929, "dur":82408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685815863058365, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1685815863058383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815863058405, "dur":253435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1685815863311867, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1685815863311896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815863311911, "dur":340840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1685815863652770, "dur":4611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1685815863657385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815863657392, "dur":67189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1685815863724603, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://testunity//build/polyjam_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1685815863724624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685815863724634, "dur":442098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://testunity//build/polyjam_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1685815864166758, "dur":97818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685815864285310, "dur":2110, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685815864375348, "dur": 6324, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685815864373337, "dur": 8383, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Animator animator;
     public CharacterController controller;
-    public float smoothTime;
+    public float smoothTime = 0.1f;
     float smoothVelocity;
     public float speed = 25.0f; // скорость передвижения
     public Transform firstCamera;
@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundMask;
     public float groundDistance = 0.4f;
+    //int jumpCount;
 
     Vector3 velocity;
     public bool isGrounded;
@@ -34,8 +35,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        Vector3 viewDirection = transform.position - new Vector3(firstCamera.transform.position.x, firstCamera.transform.position.y, firstCamera.transform.position.z);
-        orientation.forward = viewDirection.normalized;
+        //Vector3 viewDirection = transform.position - new Vector3(firstCamera.transform.position.x, firstCamera.transform.position.y, firstCamera.transform.position.z);
+        //orientation.forward = viewDirection.normalized;
 
         float horizontal = Input.GetAxis("Horizontal"); // получаем значение оси горизонтали (A и D)
         float vertical = Input.GetAxis("Vertical"); // получаем значение оси вертикали (W и S)
@@ -44,12 +45,12 @@ public class PlayerMovement : MonoBehaviour
         //sprint
         if (Input.GetKey(KeyCode.LeftShift) && movement.magnitude >= 0.1f)
         {
-            speed = 25;
+            speed = 50;
             animator.SetBool("sprint", true);
         }
         else
         {
-            speed = 12;
+            speed = 25;
             animator.SetBool("sprint", false);
         }
 

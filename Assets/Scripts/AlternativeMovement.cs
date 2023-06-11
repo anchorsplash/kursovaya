@@ -17,7 +17,7 @@ public class AlternativeMovement : MonoBehaviour
     public Transform cam;
 
     public float speed = 25;
-    public float gravity = -70f;
+    public float gravity = 0;
     public float jumpHeight = 70;
     Vector3 velocity;
     bool isGrounded;
@@ -54,9 +54,11 @@ public class AlternativeMovement : MonoBehaviour
         {
             anim.SetBool("jumping", false);
         }
+
         //gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
         //walk
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
